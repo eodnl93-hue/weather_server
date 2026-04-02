@@ -1,0 +1,145 @@
+.env
+# https://www.toptal.com/developers/gitignore/api/node 에서 생성됨
+# https://www.toptal.com/developers/gitignore?templates=node 에서 수정하세요
+
+### 노드 ###
+# 로그
+로그
+*.통나무
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 진단 보고서 (https://nodejs.org/api/report.html)
+보고서.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# 런타임 데이터
+피즈
+*.pid
+*.씨앗
+*.pid.lock
+
+# jscoverage/JScover에서 생성된 계측 라이브러리용 디렉토리
+lib-cov
+
+# Istanbul과 같은 도구에서 사용하는 커버리지 디렉토리
+적용 범위
+*.lcov
+
+# 뉴욕시 테스트 커버리지
+.nyc_output
+
+# Grunt 중간 저장소 (https://gruntjs.com/creating-plugins#storing-task-files)
+.꿀꿀 거리는 소리
+
+# Bower 종속성 디렉토리 (https://bower.io/)
+bower_components
+
+# node-waf 설정
+.lock-wscript
+
+# 컴파일된 바이너리 애드온 (https://nodejs.org/api/addons.html)
+빌드/릴리스
+
+# 종속성 디렉터리
+노드 모듈/
+jspm_packages/
+
+# Snowpack 종속성 디렉토리 (https://snowpack.dev/)
+웹 모듈/
+
+# 타입스크립트 캐시
+*.tsbuildinfo
+
+# 선택 사항 npm 캐시 디렉터리
+.npm
+
+# 선택 사항 ESLint 캐시
+.eslintcache
+
+# 선택 사항인 스타일린트 캐시
+.stylelintcache
+
+# 마이크로번들 캐시
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# 선택 사항 REPL 기록
+.node_repl_history
+
+# 'npm pack'의 출력 결과
+*.tgz
+
+# Yarn 무결성 파일
+.실 무결성
+
+# dotenv 환경 변수 파일
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler 캐시 (https://parceljs.org/)
+.은닉처
+.parcel-cache
+
+# Next.js 빌드 출력
+.다음
+밖으로
+
+# Nuxt.js 빌드/출력 생성
+.nuxt
+거리
+
+# 개츠비 파일
+.은닉처/
+# 프로젝트에서 Next.js가 아닌 Gatsby를 사용하는 경우 공개 라인에 주석을 추가하세요.
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# 공공의
+
+# VuePress 빌드 출력
+.vuepress/dist
+
+# VuePress v2.x 임시 및 캐시 디렉토리
+.temp
+
+# Docusaurus 캐시 및 생성된 파일
+.docusaurus
+
+# 서버리스 디렉터리
+.서버리스/
+
+# FuseBox 캐시
+.퓨즈박스/
+
+# DynamoDB 로컬 파일
+.dynamodb/
+
+# TernJS 포트 파일
+.tern-port
+
+# VSCode 확장 프로그램 테스트에 사용된 VSCode 버전을 저장합니다.
+.vscode-test
+
+# 얀 v2
+.yarn/캐시
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+### 노드 패치 ###
+# 서버리스 Webpack 디렉토리
+.webpack/
+
+# 선택 사항인 스타일린트 캐시
+
+# SvelteKit 빌드/출력 생성
+.svelte-kit
+
+# https://www.toptal.com/developers/gitignore/api/node 끝
